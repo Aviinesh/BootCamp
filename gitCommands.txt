@@ -5,7 +5,10 @@ git remote add origin "github link" -->Point your local git repo to remote locat
 git push -u origin master --> Push your local code to the remote github repo, u means upstream
 git status --> It will show status of your files in git repo
 git clone "repo link" --> To clone the repo from the provided location
-
+git pull --> (download) pull latest code to my local reomote repo
+git rm --cached filename --> git remove file from staging area
+git ls-files --> show list of files in staging area
+git checkout  -b "branchname" --> to open new folders in git hub repo (not on local, so nochanges will happen in local folder on system)
 
 --ubuntu
 ls  -> list of files
