@@ -1,0 +1,13 @@
+git init --> To Initialize git repository
+git add . --> Add All the Files in the folder to git
+git commit -m "commit message" --> commit to git repo with a message
+git remote add origin "github link" -->Point your local git repo to remote location
+git push -u origin master --> Push your local code to the remote github repo, u means upstream
+git status --> It will show status of your files in git repo
+git clone "repo link" --> To clone the repo from the provided location
+
+
+--ubuntu
+ls  -> list of files
+clear  --> clear your console
+history  --> To show list of commands
