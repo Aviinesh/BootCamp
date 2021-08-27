@@ -1,0 +1,25 @@
+P {
+    color:green;
+    border-style: solid dashed solid none; /*border style naming is done from top-right-bottom-left pattern - clockwise direction*/
+    /*border-style: solid; if only one style for 4 sides of border then write single type*/
+    border-width: 10px;
+    border-color: blue; /*if no color is given for border it takes color of the paragragh*/
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    /*margin: 50px; - shorthand - can be used for 50px from all sides*/
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*padding:20px; spacing from all sides. Padding means space inside border*/
+    height: 50px; /*height of paragraph elements*/
+    width: 75px;
+}
+
+body{
+    background-color:white;
+}
+

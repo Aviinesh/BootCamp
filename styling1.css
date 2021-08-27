@@ -1,0 +1,25 @@
+/*This is id styling*/
+
+#first {
+    color:black;
+}
+
+#second{
+    color:purple
+}
+
+/*This is class styling*/
+
+.topheading{
+    color:pink;
+}
+/*code for adding background image*/
+body{
+    background-color:white;
+    background-image: url("backgroundimagefromweb.jpg");
+    background-repeat: repeat-x; /*this is when using small images for background- x for horizontal repetition only, y for vertical*/
+    background-position: right;
+
+    background: white url("backgroundimagefromweb.jpg") repeat-x right; /*shorthand property - this can be used to include all customization in single line, looks better, reduces bytes*/    
+}
+
