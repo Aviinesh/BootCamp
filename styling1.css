@@ -21,5 +21,6 @@ body{
     background-position: right;
 
     background: white url("backgroundimagefromweb.jpg") repeat-x right; /*shorthand property - this can be used to include all customization in single line, looks better, reduces bytes*/    
+    
 }
 
