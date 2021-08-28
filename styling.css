@@ -4,6 +4,7 @@ P {
     /*border-style: solid; if only one style for 4 sides of border then write single type*/
     border-width: 10px;
     border-color: blue; /*if no color is given for border it takes color of the paragragh*/
+    /*border: solid 10px blue; shorthand property - instead of above, border details can be written in 1 line*/
     border-radius: 20px;
     margin-top: 50px;
     margin-right: 20px;
