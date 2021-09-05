@@ -10,10 +10,10 @@ var host ="127.0.0.1";
 
 //create server and serve internal html
 
-var server = http.createServer(function(reqst,resp){
+var server = http.createServer(function(req,res){
     res.statusCode =200;
     res.setHeader('Content-Type','text/html');
-    fs.readFile("internal.html",function(err,data){
+    fs.readFile("index.html",function(err,data){
         if(!err){
             res.write(data);
             res.end();
