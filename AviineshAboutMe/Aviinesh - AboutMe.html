@@ -6,21 +6,36 @@
     <link rel="stylesheet" href="aboutMeStyling.css">
 </head>
 
+<header>
+    <H1 style="text-align:center"> Welcome to My Page</H1>
+</header>
+
 <body>
 
 <ul>
-    <li><a class="active" href="#AboutMe">About Me</a></li>
-    <li><a href="#Edu">Education</a></li>
-    <li><a href="#Work">Work Experience</a></li>
-    <li><a href="#Skill">Skills</a></li>
-    <li><a href="#Address">Address</a></li>
-    <li><a href="#Contact">Contact Me</a></li>
+    <li><a href="Intro.html">About Me</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="Education">Education</a>
+        <div class="dropdown-content">
+            <a href="1.html">PGDM</a>
+            <a href="2.html">B.Tech</a>
+        </div>
+    </li>
+    
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Work Experience</a>
+        <div class="dropdown-content">
+            <a href="3.html">Cust. Service Specialist</a>
+            <a href="4.html">Prod. Line Lead</a>
+            <a href="5.html">Procurement Engineer</a>
+            <a href="6.html">Sales & Service Advisor</a>
+        </div>
+    </li>
+    
+    <li><a href="Skill">Skills</a></li>
+    <li style="float:right"><a href="Address">Address</a></li>
+    <li style="float:right"><a href="mailto:aviineshks@gmail.com">Contact Me</a></li>
 </ul>
-
-<div class="dropdown">
-    <button class="dropbtn"></button>
-</div>
-
 
 
 </body>
