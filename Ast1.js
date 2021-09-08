@@ -1,26 +1,27 @@
 //Program to print Prime Numbers from 1 to a given number n
 for(var p=0; p<=100; p++){
-    if(p/p == 1){
+    if(){
         console.log(p);
     }
 }
 
-//Program to swap two variables
+//Q.2) Program to swap two variables
 var a = 20;
 var b = 10;
 
 console.log("a after swapping is:" + b);
 console.log("b after swapping is:" + a);
 
+//Q.3) Print fibonacci series til a given number n
 
-function cToF(36.88) 
-{
-  var cTemp = 36.88;
-  var cToFahr = cTemp * 9 / 5 + 32;
-  var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
-    console.log(message);
-}
- 
+
+//Q.4) Write a Javascript program to convert celsius to fahrenheit
+var CT = 36.88;
+var FT = CT * 9 / 5 + 32;
+
+console.log("Temperature in Fahrenheit = " + FT)
+
+//Q.5) Write a program using switch statement
 var day;
 switch (new Date()) {
   case 0:
