@@ -5,7 +5,7 @@ app.use(express.static('public'));
 
 
 //two types of paraetrs we pass in a GET request :path parameters & query parameters
-app.get("/student/:id",function(req,res){
+app.get("/student/:id",function(req,res){ 
     //id is a path parameter
     //query parameter comes from browser side when url path is provided with a question mark
     console.log(req.query);
@@ -34,3 +34,5 @@ app.delete("/student/:id",function(req,res){
 app.listen(4001,function(){
     console.log("server started successfully...")
 });
+
+//to get result, type localhost:4001/student/1 or any id
