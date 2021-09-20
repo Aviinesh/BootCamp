@@ -1,0 +1,40 @@
+Areas in Git -> Working Area, Staging Area, Snapshot
+
+What happens during various GIT commands:
+
+$git add -> move from working to staging Area
+$git rm --cached "file name" -> moves file back from staging area to working area
+$git commit -m "changes" -> creates snapshot
+
+$git touch "file name.type" -> to create new file like main.html etc
+
+$ls -> display list of files
+
+--Branching in GIT--
+$git checkout -b "name of branch" -> to create new branch
+
+$git checkout "main" -> to go back to repo folder with name "main"
+
+$git clone "url" -> to bring data from the mentioned repo url
+
+$git push origin "branch name"
+$git push -> can be used from 2nd time onwards to push to branch that was specified earlier
+
+$git branch -d "branch name" -> to delete branch
+$git branch -D "branch name" -> to permanently delete branch
+
+$git merge "main" -> for merge request
+
+$git branch -a ->to show remote branches prsently available
+
+$git mv "currentFilename" "newFilename" -> to rename a file
+
+$git branch -> shows which branch we are in now
+
+*GIT PULL = GIT FETCH + GIT merge*
+
+
+
+
+
+
